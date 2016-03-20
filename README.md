@@ -8,28 +8,28 @@
 
 ####目录文件
 -----------
-- #####app（应用）
-  - main.c 			//这个应用链接库使用它们的函数的实例
+- **app（应用）**
+  - main.c     		//这个应用链接库使用它们的函数的实例
   - Makefile			//链接库的makefile
-- #####lib（库）
+- **lib（库）**
   - share				//动态库
   - libtest.a				//静态库
-- #####src（源码）
+- **src（源码）**
   - cJSON.c			//cjson代码
   - cJSON.h			
   - hello.c			//随便写的一个文件，主要是为了生成库
   - hello.h
   - Makefle			//生成库
-- #####Makefile			//执行每个文件中的Makefile
+- **Makefile**			//执行每个文件中的Makefile
 
 
-####使用
+#### 使用
 ----------
 - 在linux下进入本目录，输入make clean;make生成对应的库文件在lib下
 - 执行./main运行实例
 
 
-####注
+#### 注
 ----------
 - 本实例用的cjson是在网上找的开源代码
 - 本实例是为了给不知道在linux组织工程代码的借鉴，大神请绕道
